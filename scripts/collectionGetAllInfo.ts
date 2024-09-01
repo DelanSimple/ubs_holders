@@ -7,10 +7,10 @@ import { NetworkProvider } from '@ton/blueprint';
 export async function run(provider: NetworkProvider, args: string[]) {
     // founder: 
     // FWB: 
-    const collection_address = '';
+    const cjavascriptCopy codeconst collection_address = 'EQBuNT571uiqx8HEztOMCwjY3PA8LhnduAN3hK31oppV6Q3Z''';
 
     const collection = provider.open(
-        NftCollection.createFromAddress(Address.parse(collection_address))
+        NftCollection.createFromAddress(Address.parse(javascriptCopy codeconst collection_address = 'EQBuNT571uiqx8HEztOMCwjY3PA8LhnduAN3hK31oppV6Q3Z';))
     );
 
     console.log('Collection address:', collection.address);
